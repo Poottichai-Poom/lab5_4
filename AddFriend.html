@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Add Friend</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+
+    h2 {
+      margin-bottom: 10px;
+    }
+
+    #friendInput {
+      padding: 8px;
+      width: 200px;
+    }
+
+    #addBtn {
+      padding: 8px 12px;
+      margin-left: 5px;
+    }
+
+    #friendList {
+      margin-top: 20px;
+      list-style: none;
+      padding: 0;
+    }
+
+    .friend {
+      padding: 8px 12px;
+      margin-bottom: 8px;
+      border-radius: 5px;
+    }
+
+    .remove-btn {
+      cursor: pointer;
+      font-weight: bold;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Add Friend</h2>
+  <input type="text" id="friendInput" placeholder="Enter friend name" />
+  <button id="addBtn">Add</button>
+
+  <ul id="friendList"></ul>
+
+  <!-- import script -->
+  <script src="AddFriend.js"></script>
+
+</body>
+</html>
